@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Musicala · Planes y precios</title>
+
+  <!-- SEO base -->
+  <meta name="description" content="Explora planes y precios de Musicala en menos de 20 segundos. Música, danza, artes plásticas y teatro. En sede, a domicilio, virtual en vivo y online." />
+  <meta name="theme-color" content="#f6f8ff" />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="./assets/ui/favicon.png" />
+
+  <!-- Open Graph (para compartir en WhatsApp / redes) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Musicala" />
+  <meta property="og:title" content="Musicala · Planes y precios" />
+  <meta property="og:description" content="Elige tu plan en minutos: música, danza, artes plásticas y teatro. Te guiamos por WhatsApp." />
+  <meta property="og:image" content="./assets/hero/hero-1.png" />
+
+  <!-- Performance: carga CSS pronto -->
+  <link rel="preload" href="./css/styles.css" as="style" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- Accesibilidad: salto a contenido -->
+  <a class="skip-link" href="#top" style="
+    position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden;
+  "
+  onfocus="this.style.left='12px';this.style.top='12px';this.style.width='auto';this.style.height='auto';this.style.padding='10px 12px';this.style.borderRadius='12px';this.style.background='rgba(255,255,255,.95)';this.style.border='1px solid rgba(11,16,32,.12)';this.style.boxShadow='0 10px 30px rgba(11,16,32,.12)';this.style.zIndex='9999';"
+  onblur="this.style.left='-999px';this.style.width='1px';this.style.height='1px';this.style.padding='0';"
+  >Saltar al contenido</a>
+
+  <!-- TOPBAR -->
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Musicala">
+        <img src="./assets/ui/logo.png" alt="Musicala" onerror="this.style.display='none'">
+        <div class="t">
+          <b>Musicala</b>
+          <span>Planes y precios</span>
+        </div>
+      </a>
+
+      <nav class="topnav" aria-label="Accesos rápidos">
+        <a class="pilllink" href="#planes">Planes</a>
+        <a class="pilllink" href="#catalogo">Catálogo</a>
+        <a class="pilllink" href="#precios">Precios</a>
+        <a class="pilllink" href="#faqs">FAQs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="top" role="main">
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-label="Presentación">
+      <div class="hero-blobs" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="grain"></div>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="kicker">✨ Fácil, claro y rápido</div>
+          <h1 class="h1">Aprende arte a tu ritmo.</h1>
+          <p class="sub">
+            Música, danza, artes plásticas y teatro.
+            En sede, a domicilio, virtual en vivo y online.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#planes" id="btn-planes">
+              <span class="dot"></span>Ver planes y precios
+            </a>
+
+            <button class="btn secondary" id="btn-guia" type="button">
+              <span class="dot"></span>Guíame en 1 minuto
+            </button>
+
+            <a class="btn" href="#precios" id="btn-precios">
+              <span class="dot"></span>Ver imagen de precios
+            </a>
+          </div>
+
+          <div class="micro" aria-label="Beneficios">
+            <span class="badge">📍 Bogotá</span>
+            <span class="badge">⚡ Respuesta rápida</span>
+            <span class="badge">💬 WhatsApp directo</span>
+          </div>
+        </div>
+
+        <div class="hero-media" id="hero-tilt" aria-label="Imagen">
+          <img
+            id="hero-img"
+            src="./assets/hero/hero-1.png"
+            alt="Personas disfrutando una clase artística"
+            loading="eager"
+            decoding="async"
+            onerror="this.style.display='none'"
+          >
+          <div class="overlay"></div>
+          <div class="specular" aria-hidden="true"></div>
+
+          <!-- Copy cliente-first (sin Netflix/Apple) -->
+          <div class="hero-caption">
+            <b>Explora opciones en minutos.</b>
+            <span>Te guiamos para elegir bien.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section class="section" id="ubicacion" aria-label="Ubicación">
+      <div class="panel row">
+        <div class="panel-copy">
+          <b>📍 Dirección (sede Musicala)</b>
+          <div class="hint" style="margin-top:4px;">
+            Carrera 45A #103B-34 · Bogotá
+          </div>
+        </div>
+
+        <div class="row" style="gap:10px;">
+          <a
+            class="btn"
+            target="_blank"
+            rel="noopener"
+            href="https://www.google.com/maps/search/?api=1&query=Carrera%2045A%20%23103B-34%2C%20Bogot%C3%A1"
+            aria-label="Abrir ubicación en Google Maps"
+          >
+            🗺️ Ver en Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCESO DIRECTO -->
+    <section class="section" id="directo" aria-label="Acceso directo">
+      <div class="section-head">
+        <h2>Acceso directo</h2>
+        <div class="hint">Toca un instrumento o experiencia y te muestro opciones relevantes.</div>
+      </div>
+
+      <div class="rail" id="rail-instrumentos" aria-label="Instrumentos y experiencias">
+        <!-- Render dinámico desde data.js -->
+      </div>
+    </section>
+
+    <!-- EMPIEZA FÁCIL -->
+    <section class="section" id="planes" aria-label="Planes recomendados">
+      <div class="section-head">
+        <h2>Empieza fácil</h2>
+        <div class="hint">Los caminos más claros. En dos taps llegas a WhatsApp.</div>
+      </div>
+
+      <div class="grid" id="grid-principales" aria-live="polite">
+        <!-- Render dinámico desde data.js -->
+      </div>
+    </section>
+
+    <!-- CATÁLOGO COMPLETO -->
+    <section class="section" id="catalogo" aria-label="Catálogo completo">
+      <div class="section-head">
+        <h2>Catálogo completo</h2>
+        <div class="hint">Tarjetas limpias para elegir rápido. Sin enredos.</div>
+      </div>
+
+      <div class="grid" id="grid-catalogo" aria-live="polite">
+        <!-- Render dinámico desde data.js -->
+      </div>
+    </section>
+
+    <!-- IMAGEN DE PRECIOS (sin botón descargar + sin texto interno) -->
+    <section class="section" id="precios" aria-label="Imagen de precios">
+      <div class="section-head">
+        <h2>Imagen de precios</h2>
+        <div class="hint">Guárdala si te sirve. Si tienes dudas, escríbenos por WhatsApp y te guiamos.</div>
+      </div>
+
+      <div class="price-img" aria-label="Tabla de precios en imagen">
+        <img
+          src="./assets/planes/precios.jpeg"
+          alt="Precios Musicala (imagen)"
+          loading="lazy"
+          decoding="async"
+          onerror="this.style.display='none'"
+        >
+      </div>
+    </section>
+
+    <!-- FAQ MINI -->
+    <section class="section" id="faqs" aria-label="Preguntas frecuentes">
+      <div class="section-head">
+        <h2>Antes de escribirnos</h2>
+        <div class="hint">Lo que más preguntan. Respuestas cortas.</div>
+      </div>
+
+      <div class="faq">
+        <details class="faq-item">
+          <summary>📍 ¿Dónde queda Musicala?</summary>
+          <p>Carrera 45A #103B-34, Bogotá. También puedes abrir Maps en “Ubicación”.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>🎯 ¿Necesito experiencia previa?</summary>
+          <p>No 🙂 Puedes empezar desde cero. Te recomendamos una ruta según tu nivel y objetivo.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>✨ ¿Puedo probar primero?</summary>
+          <p>Sí. Tenemos clases de cortesía según disponibilidad y cupos.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>🕒 ¿Cómo funcionan los horarios?</summary>
+          <p>Se coordinan según modalidad y disponibilidad. Por WhatsApp te proponemos opciones.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>👧🧑 ¿Qué edades reciben?</summary>
+          <p>Depende del plan y el área. Escríbenos y te recomendamos la mejor ruta según la edad.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- FLUJO GUIADO -->
+    <section class="section" id="guia" aria-label="Guía rápida">
+      <div class="section-head">
+        <h2>Guíame en 1 minuto</h2>
+        <div class="hint">Para indecisos. Te arma un mensaje listo para WhatsApp.</div>
+      </div>
+
+      <div class="panel">
+        <div class="steps">
+          <div class="step">
+            <h3>1) ¿Qué quieres explorar?</h3>
+            <div class="opt" id="g-area">
+              <!-- dinámico -->
+            </div>
+          </div>
+
+          <div class="step">
+            <h3>2) ¿Cómo prefieres aprender?</h3>
+            <div class="opt" id="g-formato">
+              <!-- dinámico -->
+            </div>
+          </div>
+
+          <div class="step">
+            <h3>3) Resultado</h3>
+            <div class="hint" id="g-result">Elige 1 opción en cada paso y te armo el mensaje.</div>
+            <div class="row" style="margin-top:10px; gap:10px;">
+              <button class="btn primary" id="g-to-wa" type="button">💬 Enviar por WhatsApp</button>
+              <button class="btn" id="g-clear" type="button">Limpiar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © Musicala · Hecho para decidir rápido (y vivir el arte más rápido).
+    </footer>
+
+    <noscript>
+      <div class="panel" style="margin-top:16px;">
+        <b>Activa JavaScript</b>
+        <div class="hint" style="margin-top:6px;">
+          Este catálogo carga planes y tarjetas de forma dinámica. Si no ves contenido, activa JavaScript o escríbenos por WhatsApp.
+        </div>
+      </div>
+    </noscript>
+  </main>
+
+  <!-- Floating WhatsApp -->
+  <div class="wa" aria-label="WhatsApp">
+    <div class="bubble" id="wa-bubble">Selecciona un plan y te armo el mensaje ✍️</div>
+    <button class="fab" id="wa-fab" type="button">
+      💬 WhatsApp
+      <small id="wa-fab-sub">Te ayudamos</small>
+    </button>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Detalle del plan">
+      <div class="modal-head">
+        <div class="modal-title" id="modal-title">Detalle</div>
+        <button class="iconbtn" id="modal-close" type="button" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- dinámico -->
+      </div>
+      <div class="modal-foot">
+        <button class="btn primary" id="modal-wa" type="button">💬 WhatsApp sobre esto</button>
+        <button class="btn" data-close="1" type="button">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
